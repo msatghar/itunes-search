@@ -1,0 +1,85 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  text-align: left;
+  padding: 8px;
+}
+th {
+  text-align: center;
+  padding: 8px;
+  background-color: #6c757d;
+  color: white;
+  font-weight: normal;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#albums-container{
+  font-family: 'Arial';
+  font-size: 14px;
+  height:100%;
+}
+body, html {
+  height:100%;
+  background-color: #E8E8E8;
+}
+.searchInput{
+  outline-color: #EEEEEE;
+  margin-top: 5px;
+  padding-left: 6px;
+  height: 20px;
+  width: calc(100% - 10px);
+  border: 2px solid rgb(238, 238, 238);
+  border-radius: 3px;
+}
+.container{
+  padding: 10px;
+}
+.searchButton{
+  cursor: pointer;
+  outline-color: white;
+  margin-top: 16px;
+  margin-left: 25%;
+  width: 43%;
+  color: #fff;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  height: 25px;
+  font-size:12px;
+  border-radius: 3px;
+}
+.searchButton:hover {
+  background-color: #147bcd;
+  background: linear-gradient(#51a9ee, #147bcd);
+  border-color: #1482d0;
+}
+.searchButton:disabled{
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+.searchDiv {
+  background: white;
+  border-radius: 3px;
+  padding: 10px;
+}
+.searchTableDiv {
+  background: white;
+  border-radius: 3px;
+  margin-top:10px;
+}
+.header {
+  padding: 8px;
+  margin:-10px;
+  background-color: #6c757d;
+  color: white;
+  font-weight: normal;
+}
+.noSearchResults {
+  padding:8px;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
